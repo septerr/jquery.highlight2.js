@@ -1,12 +1,12 @@
-<h1>Requirements</h1>
+Requirements
 Requires jquery.
 To use, include jquery.highlight2.js after the jquery include statement.
 
-<h1>Credit</h1>
+Credit
 jquery.highlight2.js is based on <a href="https://github.com/bartaz">Bartek Szopka's</a> <a href="https://github.com/bartaz/sandbox.js">jquery.highlight.js</a>.
 jquery.highlight2.js enhances the original plugin by adding an option for the wrapping element's attributes.
 
-<h1>Usage</h1>
+Usage
 You can still use all the jquery.highlight.js options - element, className, caseSensitive, wordsOnly.
 In addition you can use the other_attrs option. This option should be used to specify attributes ({key: value}) that should be applied to the wrapper element.
 
