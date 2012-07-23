@@ -15,24 +15,25 @@ In addition you can use the other_attrs option. This option should be used to sp
 
 For instance if you wanted to wrap every occurrence of the word 'Lorem' with an anchor tag that has href="#" and title="anchor yeah!", you would specify this:
 
- $('.content').highlight('Lorem', {element:'a', className:'awesome-tip',
-         other_attrs:{href: '#',
-             title: 'anchor yeah!'
-             }
-         }
-     );
+ $('.content').highlight('Lorem', {element:'a', className:'awesome-tip',<br />
+         other_attrs:{href: '#',<br />
+             title: 'anchor yeah!'<br />
+             }<br />
+         }<br />
+     );<br />
 
 The JSON provided for the other_attrs parameter is applied to the wrapping element using jquery's attr method - http://api.jquery.com/attr/#attr2.
 This method can take literals as well as functions for the attribute values. If a function is provided, the setting of the attribute value is delegated to the function.
 So, in the prior example if you wanted to add a class 'foo' to the anchor tag without clobbering the 'awesome-tip' class, you would use a function:
 
-  $('.content').highlight('Lorem', {element:'a', className:'awesome-tip',
-           other_attrs:{href: '#',
-               title: 'anchor yeah!',
-               class = function(index, attr){$(this).addClass('awesome-class')}
+  $('.content').highlight('Lorem', {element:'a', className:'awesome-tip',<br />
+           other_attrs:{href: '#',<br />
+               title: 'anchor yeah!',<br />
+               class = function(index, attr){$(this).addClass('awesome-class')}<br />
                }
-           }
-       });
+           }                                                                         <br />
+       });<br />
+
 The function is applied after the className attribute has already been applied. The function is supplied with two arguments. An index of the element's position in the jquery collection and existing value of the attribute.
 The index in our case will always be 0.
 
