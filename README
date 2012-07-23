@@ -34,8 +34,5 @@ In addition you can use the other_attrs option. This option should be used to sp
   The function is applied after the className attribute has already been applied. The function is supplied with two arguments. An index of the element's position in the jquery collection and existing value of the attribute.
   The index in our case will always be 0.
 
-The source code is released under MIT Licence.
-
-Feel free to visit my blog at:
-http://www.itsabodybuildingblog.com
+Feel free to tweet me a comment: twitter.com/septerr
 
