@@ -1,12 +1,15 @@
-<h1>Requirements</h1>
+Requirements
+=============
 Requires jquery.
 To use, include jquery.highlight2.js after the jquery include statement.
 
-<h1>Credit</h1>
-jquery.highlight2.js is based on <a href="https://github.com/bartaz">Bartek Szopka's</a> <a href="https://github.com/bartaz/sandbox.js">jquery.highlight.js</a>.
+Credit
+=======
+jquery.highlight2.js is based on [Bartek Szopka's](https://github.com/bartaz) [jquery.highlight.js](https://github.com/bartaz/sandbox.js).
 jquery.highlight2.js enhances the original plugin by adding an option for the wrapping element's attributes.
 
-<h1>Usage</h1>
+Usage
+======
 You can still use all the jquery.highlight.js options - element, className, caseSensitive, wordsOnly.
 In addition you can use the other_attrs option. This option should be used to specify attributes ({key: value}) that should be applied to the wrapper element.
 
@@ -34,8 +37,5 @@ In addition you can use the other_attrs option. This option should be used to sp
   The function is applied after the className attribute has already been applied. The function is supplied with two arguments. An index of the element's position in the jquery collection and existing value of the attribute.
   The index in our case will always be 0.
 
-The source code is released under MIT Licence.
-
-Feel free to visit my blog at:
-http://www.itsabodybuildingblog.com
+Feel free to [tweet](twitter.com/septerr) me a comment.
 
