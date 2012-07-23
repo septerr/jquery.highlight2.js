@@ -5,7 +5,7 @@ To use, include jquery.highlight2.js after the jquery include statement.
 
 Credit
 =======
-jquery.highlight2.js is based on [Bartek Szopka's](https://github.com/bartaz) [jquery.highlight.js](https://github.com/bartaz/sandbox.js).
+jquery.highlight2.js is based on [Bartek Szopka's](https://github.com/bartaz/sandbox.js).
 jquery.highlight2.js enhances the original plugin by adding an option for the wrapping element's attributes.
 
 Usage
