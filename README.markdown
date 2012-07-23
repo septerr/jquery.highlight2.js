@@ -29,8 +29,7 @@ So, in the prior example if you wanted to add a class 'foo' to the anchor tag wi
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title: 'anchor yeah!',<br />
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class = function(index, attr){$(this).addClass('awesome-class')}<br />
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}                                                                         <br />
-       });<br />
+          });<br />
 
 The function is applied after the className attribute has already been applied. The function is supplied with two arguments. An index of the element's position in the jquery collection and existing value of the attribute.
 The index in our case will always be 0.
