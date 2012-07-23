@@ -16,10 +16,8 @@ In addition you can use the other_attrs option. This option should be used to sp
 For instance if you wanted to wrap every occurrence of the word 'Lorem' with an anchor tag that has href="#" and title="anchor yeah!", you would specify this:
 
  $('.content').highlight('Lorem', {element:'a', className:'awesome-tip',<br />
-         other_attrs:{href: '#',<br />
-             title: 'anchor yeah!'<br />
-             }<br />
-         }<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other_attrs:{href: '#', title: 'anchor yeah!'}<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
      );<br />
 
 The JSON provided for the other_attrs parameter is applied to the wrapping element using jquery's attr method - http://api.jquery.com/attr/#attr2.
@@ -27,11 +25,11 @@ This method can take literals as well as functions for the attribute values. If 
 So, in the prior example if you wanted to add a class 'foo' to the anchor tag without clobbering the 'awesome-tip' class, you would use a function:
 
   $('.content').highlight('Lorem', {element:'a', className:'awesome-tip',<br />
-           other_attrs:{href: '#',<br />
-               title: 'anchor yeah!',<br />
-               class = function(index, attr){$(this).addClass('awesome-class')}<br />
-               }
-           }                                                                         <br />
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other_attrs:{href: '#',<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title: 'anchor yeah!',<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class = function(index, attr){$(this).addClass('awesome-class')}<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}                                                                         <br />
        });<br />
 
 The function is applied after the className attribute has already been applied. The function is supplied with two arguments. An index of the element's position in the jquery collection and existing value of the attribute.
